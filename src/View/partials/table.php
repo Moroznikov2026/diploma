@@ -1,0 +1,1 @@
+<table class="table table-striped"><tbody><?php foreach (($items ?? []) as $row): ?><tr><?php foreach ($row as $value): ?><td><?= htmlspecialchars((string)$value) ?></td><?php endforeach; ?></tr><?php endforeach; ?></tbody></table>
