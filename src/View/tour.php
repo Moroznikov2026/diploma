@@ -1,0 +1,1 @@
+<h1>Каталог туров</h1><form method="post" action="/tours/store" class="row g-2 mb-3"><input class="form-control" name="title" placeholder="Название"><input class="form-control" name="country" placeholder="Страна"><input class="form-control" name="price" placeholder="Цена"><button class="btn btn-primary">Добавить</button></form><?php include __DIR__ . '/partials/table.php'; ?>
