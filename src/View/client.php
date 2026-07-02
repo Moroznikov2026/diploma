@@ -1,0 +1,1 @@
+<h1>Клиенты</h1><form method="post" action="/clients/store" class="row g-2 mb-3"><input class="form-control" name="name" placeholder="ФИО"><input class="form-control" name="phone" placeholder="Телефон"><input class="form-control" name="email" placeholder="Email"><button class="btn btn-primary">Добавить</button></form><?php include __DIR__ . '/partials/table.php'; ?>
