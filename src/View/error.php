@@ -1,0 +1,1 @@
+<!doctype html><html lang="ru"><body><h1>Ошибка приложения</h1><p>Сообщение записано в лог.</p><?php if (!empty($debug)): ?><pre><?= htmlspecialchars($exception->getMessage()) ?></pre><?php endif; ?></body></html>
