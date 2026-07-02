@@ -1,0 +1,4 @@
+<h1>Настройки FEON CRM</h1>
+<form method="post" action="/settings/save" class="card mb-3"><div class="card-body"><input class="form-control mb-2" name="default_responsible_id" placeholder="Ответственный по умолчанию"><button class="btn btn-primary">Сохранить</button></div></form>
+<form method="post" action="/placements/left-menu/bind" class="card mb-3"><div class="card-body"><h5>Пункт в левом меню Bitrix24</h5><input class="form-control mb-2" name="title" value="FEON CRM"><input class="form-control mb-2" name="handler" placeholder="https://example.com/placement.php"><button class="btn btn-success">Добавить в левое меню</button></div></form>
+<form method="post" action="/placements/left-menu/unbind" class="card"><div class="card-body"><input class="form-control mb-2" name="handler" placeholder="https://example.com/placement.php"><button class="btn btn-outline-danger">Удалить пункт меню</button></div></form>
